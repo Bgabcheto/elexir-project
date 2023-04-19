@@ -1,0 +1,39 @@
+.container-about {
+	width: 100%;
+}
+
+.heding-about {
+    text-align: center;
+    font-size: 25px;
+    padding-top:  100px;
+}
+.heding-about::before,
+.heding-about::after {
+    content:url('../../assets/logo_about.png');
+}
+
+
+.paragraph {
+    text-align: center;
+    
+}
+
+.center-about {
+   justify-content: center;
+}
+.heding_two {
+    color: rgb(49, 158, 82);
+}
+.ornament {
+	margin-top: 5em;
+    padding-left: 100px;
+    padding-bottom: 15px;
+}
+.carousel-indicators [data-bs-target] {
+	display: none;
+}
+.about-content {
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}

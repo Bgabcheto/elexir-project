@@ -1,0 +1,75 @@
+.home-menu {
+    width: 100%;
+    background-image: url('../../../assets/menu_img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+    div.menu-title {
+       div.col{ display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+    }
+.heding {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    display: flex;
+    align-items: center
+}
+
+.menu-content {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+}
+div.col{
+.heding::before{
+    content:url('../../../assets/right_icon.png')
+    }
+.heding::after{
+    content:url('../../../assets/left_icon.png')
+    }
+}
+div.right::after {
+    content:url('../../../assets/raster.png');
+    position: relative;
+    bottom: 100px;
+    height:  100px;
+    display: flex;
+    align-items: center;
+}
+.red {
+    color: red;
+    font-style: italic;
+    font-size: 20px;
+}
+h3.red {
+    font-size: 30px;
+}
+div.left {
+    position: relative;
+    bottom: 48px;
+    align-items: center;
+}
+.home-menu p {
+    text-align: center;
+}
+.menu-content p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.reservation {
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+
